@@ -1,0 +1,79 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	background: white;
+}
+
+
+.imgg img
+{
+	width: 260px;
+	height: 50px;
+    border-radius: 50px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    box-shadow: 3px 3px 7px black,-3px -3px 7px black;
+    padding: 5px 10px;
+    margin: 20px 30px ;
+
+}
+.main
+{
+    height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    border: none;
+
+
+
+}
+.contain
+{
+	background-image: url(calcu.jpg);
+	border-radius: 15px;
+	padding: 15px;
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	outline: none;
+	border: none;
+	transition: 2s;
+}
+.contain:hover
+{
+	border-radius: 30px;
+}
+#calcu
+{ 
+
+	grid-column: span 4;
+	text-align: right;
+	padding: 8px;
+	font-size: 20px;
+	outline: none;
+	border-radius: 10px;
+	margin: 20px 10px 10px 10px;
+    color: black;
+}
+.contain button
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 9px 9px ;
+	
+	margin: 20px 15px;
+	background: none;
+    font-size: 20px;
+	border: none;
+	color:  white;
+	cursor: pointer;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.8);
+}
+
+#equ
+{
+	grid-column: span 2;
+}
